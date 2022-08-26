@@ -2,9 +2,10 @@ package main
 
 import (
 	"fmt"
-	ds "lib/dataStructure"
-	dsl "lib/dataStructure/linkedList"
 	"math"
+
+	ds "github.com/jamessynndev/goprojects/src/lib/dataStructure"
+	dsl "github.com/jamessynndev/goprojects/src/lib/dataStructure/linkedList"
 )
 
 type Shape interface {
