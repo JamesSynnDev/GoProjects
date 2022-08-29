@@ -8,7 +8,7 @@ import (
 
 func main() {
 	ui.A1()
-	ui.A2()
+	// ui.A2()
 	ui.A3()
 	// ui.UserIO()
 

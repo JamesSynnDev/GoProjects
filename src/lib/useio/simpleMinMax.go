@@ -54,6 +54,7 @@ func A1() {
 	fmt.Println("Func A1 End")
 }
 
+/*
 func A2() {
 	for i := 0; i < 3; i++ {
 		defer func() {
@@ -62,7 +63,7 @@ func A2() {
 	}
 	fmt.Println("Func A2 End")
 }
-
+*/
 func A3() {
 	for i := 0; i < 3; i++ {
 		defer func(n int) { fmt.Print(n, " ") }(i)
