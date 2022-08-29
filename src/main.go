@@ -1,39 +1,17 @@
 package main
 
 import (
-	"fmt"
-	"math"
-
-	ds "github.com/jamessynndev/goprojects/src/lib/dataStructure"
-	dsl "github.com/jamessynndev/goprojects/src/lib/dataStructure/linkedList"
+	ht "lib/dataStructure/hashTable"
+	st "lib/dataStructure/trees"
+	ui "lib/useio"
 )
 
-type Shape interface {
-	Area() float64
-}
-
-type Circle struct {
-	Radius float64
-}
-
-func (c *Circle) Area() float64 {
-	return c.Radius * c.Radius * math.Pi
-}
-
 func main() {
+	ui.A1()
+	ui.A2()
+	ui.A3()
+	// ui.UserIO()
 
-	fmt.Println("fibonacci : ",
-		ds.Fibo_recursion(4))
-
-	list := dsl.New()
-
-	var i Shape
-	i = &Circle{5}
-	i.Area()
-
-	fmt.Println("Print i : ", i)
-
-	list.InsertFirst(dsl.NewNode(&Circle{4}))
-
-	fmt.Println("Print list : ", list)
+	st.SimpleTree_test()
+	ht.Hash_test()
 }

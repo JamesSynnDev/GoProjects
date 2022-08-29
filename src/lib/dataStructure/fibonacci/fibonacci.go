@@ -1,4 +1,4 @@
-package dataStructure
+package fibonacci
 
 func Fibo_recursion(n int) int {
 	if n == 0 {
