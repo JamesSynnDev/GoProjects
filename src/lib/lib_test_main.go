@@ -1,7 +1,7 @@
 package main
 
 import (
-	ht "lib/dataStructure/hashTable"
+	ht "dataStructure/hashTable"
 	st "lib/dataStructure/trees"
 	ui "lib/useio"
 )

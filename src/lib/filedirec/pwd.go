@@ -1,3 +1,4 @@
+// File and Directory Library
 package filedirec
 
 import (
@@ -6,6 +7,7 @@ import (
 	"path/filepath"
 )
 
+// Get pwd and Set Symlinks
 func pwdd() {
 
 	arguments := os.Args
